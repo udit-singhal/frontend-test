@@ -26,7 +26,7 @@ body {
 .nav-bar .left-column {
     text-align: left; /* Left-align the heading */
     width: 50%; /* Adjust the width to prevent text cutoff */
-    font-size: 50px;
+    font-size: 2rem;
     font-weight: bold;
     
 
@@ -39,7 +39,7 @@ body {
     font-size: large;
     font-weight: bold;
     margin-right: 100px;
-    font-size: 50px;
+    font-size: 2rem;
 
 
 }
@@ -145,5 +145,31 @@ body {
     #image-grid {
         --num-cols: 1;
         --row-height: 180px;
+
     }
+    nav-bar .left-column {
+        text-align: left; /* Left-align the heading */
+        width: 50%; /* Adjust the width to prevent text cutoff */
+        font-size: 1rem;
+        font-weight: bold;
+        
+    
+    }
+    .nav-bar .right-column {
+        text-align: right; /* Right-align the metric */
+        width: 50%; /* Adjust the width to prevent text cutoff */
+        white-space: nowrap; /* Prevent metric text from wrapping to the next line */
+        font-weight: bold;
+        margin-right: 100px;
+        font-size: 1.5rem;
+    
+    
+    }
+    
+}
+
+.no-hover{
+    transform: none;
+    border-radius: none;
+    box-shadow: none;
 }
