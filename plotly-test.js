@@ -99,7 +99,7 @@ function createLinePlot(){
             text: 'Line Plot for 5 Models',
             font: {
                 family: 'Poppins, Arial, Verdana',
-                size: 24,
+                size: '2.5rem',
                 weight: 'bold',
                 color: 'white',
               },
@@ -107,7 +107,7 @@ function createLinePlot(){
         legend:{
             font: {
                 family: 'Poppins, Arial, Verdana',
-                size: 14,
+                size: '1rem',
                 color: 'white'
               },
         },
@@ -212,10 +212,10 @@ function createConfusionMatricesPlot() {
         xaxis: { title: 'Models', color: 'white' },
         yaxis: { title: 'Accuracy', color: 'white' },
         title: {
-            text: 'Classwise Accuracies for 5 Models (Grouped by Class)',
+            text: 'Classwise Accuracies for 5 Models',
             font: {
                 family: 'Poppins, Arial, Verdana',
-                size: 24,
+                size: '2.5rem',
                 weight: 'bold',
                 color: 'white',
               },
@@ -223,7 +223,7 @@ function createConfusionMatricesPlot() {
         legend:{
             font: {
                 family: 'Poppins, Arial, Verdana',
-                size: 14,
+                size: '1rem',
                 color: 'white'
               },
         },
@@ -275,10 +275,10 @@ function createRadarChart() {
            l:150
         },
         title: {
-            text: 'Radar Chart for 5 Models and 5 Metrics',
+            text: 'Radar Chart for 5 Models',
             font: {
                 family: 'Poppins, Arial, Verdana',
-                size: 24,
+                size: '2.5rem',
                 weight: 'bold',
                 color: 'white',
               },
@@ -286,7 +286,7 @@ function createRadarChart() {
         legend:{
             font: {
                 family: 'Poppins, Arial, Verdana',
-                size: 14,
+                size: '1rem',
                 color: 'white'
               },
         },
@@ -298,7 +298,7 @@ function createRadarChart() {
             bgcolor: 'black',
             font: {
                 family: 'Poppins, Arial, Verdana',
-                size: 14,
+                size: '1.5rem',
                 weight: 'bold',
                 color: 'white',
               },
