@@ -156,3 +156,27 @@ body{
         max-height: 60%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .features {
+        /* Adjust styles for smaller screens */
+        top: 17%;
+        left: 35%;
+        max-width: 60%;
+        max-height: 60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .features {
+        /* Adjust styles for smaller screens */
+        top: 27%;
+        left: 47%;
+        max-width: 30%;
+        max-height: 30%;
+    }
+    .controls{
+        height: 2rem;
+        width: 0.1rem;
+    }
+}
